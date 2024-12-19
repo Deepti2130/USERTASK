@@ -1,0 +1,17 @@
+<p>
+  The Username is <strong>{{userInfo.username}}</strong> with ID <strong>{{userInfo.userid}}</strong>
+</p>
+
+
+<button
+routerLink="edit"
+mat-raised-button color="primary" class="mr-3">
+  Edit
+</button>
+
+
+<button
+(click)="onRemoveuser()"
+mat-raised-button color="warn">
+  Remove
+</button>
